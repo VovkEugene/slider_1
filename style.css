@@ -2,10 +2,12 @@
 @import url("./styles/carousel.css");
 @import url("./styles/thumbnail.css");
 @import url("./styles/arrows.css");
+@import url("./styles/time.css");
 @import url("./styles/animation/animation-text.css");
 @import url("./styles/animation/animation-next-click.css");
 @import url("./styles/animation/animation-previous-click.css");
-@import url("./styles/time.css");
+@import url("./styles/animation/animation-time-running.css");
+@import url("./styles/media.css");
 
 body {
   margin: 0;
