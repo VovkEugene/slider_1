@@ -5,6 +5,7 @@
 @import url("./styles/animation/animation-text.css");
 @import url("./styles/animation/animation-next-click.css");
 @import url("./styles/animation/animation-previous-click.css");
+@import url("./styles/time.css");
 
 body {
   margin: 0;
