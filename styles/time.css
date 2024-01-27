@@ -1,9 +1,9 @@
-.time {
+.carousel .time {
   position: absolute;
   top: 0;
   left: 0;
   width: 0%;
   height: 3px;
   background-color: #f1683a;
-  z-index: 100;
+  z-index: 1000;
 }

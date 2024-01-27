@@ -1,12 +1,12 @@
 /* -----create animation when next click----- */
 
-.carousel.next .list:nth-child(1) img {
+.carousel.next .list .item:nth-child(1) img {
   position: absolute;
   width: 150px;
   height: 220px;
   left: 50%;
-  bottom: 50%;
-  border-radius: 20px;
+  bottom: 50px;
+  border-radius: 30px;
   animation: showImage 0.5s linear 1 forwards;
 }
 
@@ -21,28 +21,27 @@
 }
 
 .carousel.next .thumbnail .item:nth-child(1) {
-  width: 0;
   overflow: hidden;
   animation: showThumbnail 0.5s linear 1 forwards;
 }
 
+.carousel.prev .list .item img {
+  z-index: 100;
+}
+
 @keyframes showThumbnail {
-  to {
-    width: 150px;
+  from {
+    width: 0;
+    opacity: 0;
   }
 }
 
 .carousel.next .thumbnail {
-  transform: translateX(150px);
   animation: transformThumbnail 0.5s linear 1 forwards;
 }
 
 @keyframes transformThumbnail {
-  to {
-    transform: translateX(0);
+  from {
+    transform: translateX(150px);
   }
-}
-
-.carousel.next .arrows button {
-  pointer-events: none;
 }

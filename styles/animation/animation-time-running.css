@@ -1,10 +1,12 @@
 .carousel.previous .time,
 .carousel.next .time {
-  width: 100%;
-  animation: timeRunning 2s linear 1 forwards;
+  animation: timeRunning 3s linear 1 forwards;
 }
 
 @keyframes timeRunning {
+  from {
+    width: 100%;
+  }
   to {
     width: 0;
   }

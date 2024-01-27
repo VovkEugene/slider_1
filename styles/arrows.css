@@ -27,3 +27,8 @@
   color: #555;
   background-color: #eee;
 }
+
+.carousel.next .arrows button,
+.carousel.prev .arrows button {
+  pointer-events: none;
+}

@@ -43,7 +43,3 @@
     opacity: 0;
   }
 }
-
-.carousel.previous .arrows button {
-  pointer-events: none;
-}
