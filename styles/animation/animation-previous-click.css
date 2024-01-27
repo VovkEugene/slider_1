@@ -1,0 +1,49 @@
+/* -----create animation when previous click----- */
+
+.carousel.previous .list .item:nth-child(2) {
+  z-index: 2;
+}
+
+.carousel.previous .list .item:nth-child(2) img {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  animation: outImage 0.5s linear 1 forwards;
+}
+
+@keyframes outImage {
+  to {
+    width: 150px;
+    height: 220px;
+    left: 50%;
+    bottom: 50px;
+    border-radius: 20px;
+  }
+}
+
+.carousel.previous .thumbnail .item:nth-child(1) {
+  width: 0;
+  overflow: hidden;
+  opacity: 1;
+  animation: showThumbnail 0.5s linear 1 forwards;
+}
+
+.carousel .list .item:nth-child(2) .author,
+.carousel .list .item:nth-child(2) .title,
+.carousel .list .item:nth-child(2) .topic,
+.carousel .list .item:nth-child(2) .description,
+.carousel .list .item:nth-child(2) .buttons {
+  animation: contentOut 0.5s 1s linear forwards;
+}
+
+@keyframes contentOut {
+  to {
+    transform: translateY(-150px);
+    filter: blur(20px);
+    opacity: 0;
+  }
+}
+
+.carousel.previous .arrows button {
+  pointer-events: none;
+}
