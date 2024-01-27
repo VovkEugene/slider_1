@@ -67,10 +67,22 @@
   font-weight: 500;
   text-transform: uppercase;
   letter-spacing: 3px;
+  transition: all 0.3s ease 0s;
 }
 
 .carousel .list .item .content button:nth-child(2) {
   border: 1px solid #eee;
   color: #eee;
   background-color: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.carousel .list .item .content button:hover {
+  border: 1px solid #eee;
+  color: #eee;
+  background-color: transparent;
+}
+
+.carousel .list .item .content button:nth-child(2):hover {
+  background-color: #eee4;
 }

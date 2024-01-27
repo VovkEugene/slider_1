@@ -1,6 +1,7 @@
 @import url("./styles/header.css");
 @import url("./styles/carousel.css");
 @import url("./styles/thumbnail.css");
+@import url("./styles/arrows.css");
 
 body {
   margin: 0;
@@ -25,4 +26,8 @@ ul {
 
 ul {
   list-style: none;
+}
+
+button {
+  cursor: pointer;
 }
