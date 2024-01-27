@@ -1,5 +1,6 @@
 @import url("./styles/header.css");
 @import url("./styles/carousel.css");
+@import url("./styles/thumbnail.css");
 
 body {
   margin: 0;
@@ -15,13 +16,13 @@ a {
   color: #eee;
 }
 
-h2 {
+h2,
+h3,
+ul {
   margin: 0;
   padding: 0;
 }
 
 ul {
   list-style: none;
-  margin: 0;
-  padding: 0;
 }
